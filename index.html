@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARDIS | Peluquería & Estilo</title>
+     <link rel="icon" href="d.png" type="image/x-icon">
+    <link rel="shortcut icon" href="d.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="d.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+   </head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo-container">
+           <div class="logo">DARDIS</div>
+           <span class="logo-sub">Peluqueria & Estilo</span>
+      </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#contacto" class="btn-primary-sm">Reservar Turno</a>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Tu estilo, nuestra pasión</h1>
+            <p>Descubre una experiencia de belleza única.</p>
+            <a href="#servicios" class="btn-primary">Ver Servicios</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros container">
+        <div class="nosotros-text">
+            <span class="subtitle">Bienvenido a DARDIS</span>
+            <h2>Más que una peluquería, un espacio para vos</h2>
+            <p>En DARDIS respaldamos nuestra pasión con una trayectoria de 39 años, inaugurada en 1987. DARDIS es más que una peluquería: es un espacio pensado exclusivamente para vos. Sabemos que tu cabello habla de quién sos; por eso, nos enfocamos en resaltar tu belleza natural a través de una atención 100% personalizada, técnicas innovadoras y productos premium.</p>
+            <p>Te ofrezco las últimas tendencias globales en cortes, coloración y tratamientos capilares para lograr el estilo que te identifica.</p>
+            <p>¡Te esperamos!</p>
+        </div>
+        <div class="nosotros-img">
+            <div class="placeholder-img">Estilo & Vanguardia</div>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Nuestras Especialidades</span>
+                <h2>Servicios Exclusivos</h2>
+            </div>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <h3>Corte & Peinado</h3>
+                    <p>Cortes adaptados a tus facciones y las últimas tendencias. Brushing, peinados para eventos y asesoramiento de imagen.</p>
+                    <span class="precio">Desde $15.000</span>
+                </div>
+                <div class="servicio-card">
+                    <h3>Coloración Experta</h3>
+                    <p>Balayage, babylights, cobertura de canas y cambios globales de color cuidando siempre la salud de tu fibra capilar.</p>
+                    <span class="precio">Desde $28.000</span>
+                </div>
+                <div class="servicio-card">
+                    <h3>Tratamientos</h3>
+                    <p>Nutrición profunda, cauterizados, keratina y tratamientos reconstructores para devolverle el brillo y la fuerza a tu pelo.</p>
+                    <span class="precio">Desde $18.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto container">
+        <div class="contacto-info">
+            <h2>Agendá tu cita</h2>
+            <p>Escribinos o visítanos en nuestro salón para vivir la experiencia.</p>
+            
+            <div class="info-detalles">
+                <div class="info-item">
+                    <strong>Dirección:</strong> Deseado 3998, Isidro Casanova (San Alberto)
+                </div>
+                <div class="info-item">
+                    <strong>Teléfono / WhatsApp:</strong> +54 11 3073-1050
+                </div>
+                <div class="info-item">
+                    <strong>Horarios:</strong> Martes a Sábados de 09:00 a 20:00 hs.
+                </div>
+            </div>
+
+            <!-- Contenedor del Mapa interactivo -->
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.052601726058!2d-58.591026000000005!3d-34.703848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc667e41571d1%3A0x6ec040ca68f6345d!2sDeseado%203998%2C%20Isidro%20Casanova%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716912345678!5m2!1ses-419!2sar" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        
+        <div class="contacto-form">
+            <form id="whatsappForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" id="whatsapp" required placeholder="Ej: 1123456789">
+                </div>
+                <div class="form-group">
+                    <label for="servicio">Servicio de interés</label>
+                    <select id="servicio">
+                        <option>Corte & Peinado</option>
+                        <option>Coloración</option>
+                        <option>Tratamientos</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-accent">Solicitar Turno por WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 DARDIS. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5491130731050?text=Hola%20DARDIS!%20Quería%20hacer%20una%20consulta." class="whatsapp-float" target="_blank">
+    <!-- SVG oficial de WhatsApp integrado directamente -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16" style="color: white;">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.948h.003c4.368 0 7.928-3.558 7.93-7.93a7.9 7.9 0 0 0-2.326-5.592m-5.607 11.426h-.003c-1.192 0-2.365-.32-3.394-.925l-.243-.144-2.52.66.672-2.457-.157-.25a6.6 6.6 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+    </svg>
+</a>
+
+    <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const nombre = document.getElementById('nombre').value;
+            const telefonoCliente = document.getElementById('whatsapp').value;
+            const servicio = document.getElementById('servicio').value;
+            
+            const tuNumero = "5491130731050"; 
+
+            const mensaje = `Hola DARDIS! Me gustaría reservar un turno:%0A%0A` +
+                            `*Nombre:* ${encodeURIComponent(nombre)}%0A` +
+                            `*WhatsApp:* ${encodeURIComponent(telefonoCliente)}%0A` +
+                            `*Servicio de interés:* ${encodeURIComponent(servicio)}`;
+
+            const urlFormat = `https://wa.me/${tuNumero}?text=${mensaje}`;
+
+            window.open(urlFormat, '_blank');
+        });
+    </script>
+
+</body>
+</html>
